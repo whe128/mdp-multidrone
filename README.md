@@ -2,7 +2,9 @@
 
 The `MultiDroneUnc` class provides a simple, self-contained MDP formulation for multiple drones operating in a bounded 3D grid with static obstacles and goal regions, while being subject to uncertainties in the outcome of actions. The drones can take actions to move to one of their adjacent cells: If drones are not allowed to change their altitude, each drone can move to one of its `8` neighbor cells in the XY-plane (up, down, left, right, and diagonals). Otherwise, each drone can move to one of its `26` neighbors in 3D space (all adjacent cells except staying in place).
 <p align="center">
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/79406efa-5a2f-4f71-843c-964b0bffb21d" />
+ <img width="600" alt="image" src="https://github.com/user-attachments/assets/79406efa-5a2f-4f71-843c-964b0bffb21d" />
+ <br>
+ <a href="https://www.youtube.com/watch?v=MIe_A34p2Iw">[video]</a>
 </p>
 
 ## Requirements
